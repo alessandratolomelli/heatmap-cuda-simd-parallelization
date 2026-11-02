@@ -1,6 +1,7 @@
 # Parallelizzazione di un Algoritmo per la Generazione di Heatmap
 
 Progetto sviluppato per il corso di **Sistemi di Elaborazione Accelerata** (a.a. 2025/2026).
+Puoi consultare la presentazione completa del progetto [qui](docs/Heatmap_Savino_Tolomelli.pdf)
 
 ## 📋 Descrizione del Progetto
 L'obiettivo del progetto è la generazione efficiente di heatmap a partire da milioni di eventi spaziali (es. dati di tracking calcistico), sfruttando l'accelerazione hardware tramite **GPU (CUDA)** e tecniche diparallelizzazione su **CPU (SIMD / AVX)**.
@@ -33,3 +34,5 @@ nvcc -O3 src/cuda_kernels.cu -o heatmap_cuda
 ```bash
 nvcc -O3 src/cuda_kernels.cu -o heatmap_cuda
 ./heatmap_cuda
+
+
