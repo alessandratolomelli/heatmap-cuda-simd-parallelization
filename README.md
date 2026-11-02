@@ -26,13 +26,6 @@ Il progetto esplora diversi livelli di ottimizzazione:
 * **CPU:** Supporto istruzioni AVX2
 * **Compilatore:** `nvcc` (NVIDIA CUDA Compiler) e `g++`
 
-## ⚙️ Compilazione ed Esecuzione
-Esempio di compilazione per il codice CUDA:
-```bash
-nvcc -O3 src/cuda_kernels.cu -o heatmap_cuda
-./heatmap_cuda
-```bash
-nvcc -O3 src/cuda_kernels.cu -o heatmap_cuda
-./heatmap_cuda
+
 
 
